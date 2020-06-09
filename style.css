@@ -1,0 +1,110 @@
+body {
+    background-size: 1567px;
+    background-image: url(img/usa.jpg);
+    display:block;
+    margin: 0;
+}
+
+ul {
+    list-style-type:none; 
+    margin: 0px;
+    padding: 0px 10px;
+    background-color: rgb(180, 0, 0);
+}
+
+li {
+    display:inline-block;
+   
+    
+}
+
+li a {
+    display: inline-block;
+    color:ghostwhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom:4px solid transparent;
+}
+li a:hover {
+    background-color: rgb(18, 47, 129);
+    border-bottom: 4px solid black;
+}
+.logo {
+    padding: 8px 6px;
+     float: left;
+}
+/*____________________~__________________~__________________*/
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    -webkit-text-stroke-width: 1.5px;
+    /* largura da borda */
+    -webkit-text-stroke-color: #000;
+    /* cor da borda */
+}
+h2 {
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: px;
+    padding:0px; 
+}
+div {
+    background-color :rgba(4, 32, 109, 0.527);
+    padding: 2px 5px;
+    margin: 50px 150px 0px 150px;
+    border: red;
+    border-style: inset;
+}
+fieldset {
+    margin: 30px 150px;
+    border-color: ;
+    background-color:rgba(4, 32, 109, 0.582) ;
+    border-color: red;
+}
+legend {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    -webkit-text-stroke-width: 1.5px;
+    /* largura da borda */
+    -webkit-text-stroke-color: #000;
+    /* cor da borda */
+    font-weight: bold;
+}
+label {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+input {
+    size: 20px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.ei{
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+}
+button {
+    align-content: center;
+    margin: 5px;
+    padding: 5px 10px;
+    border: 2px solid gray;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgba(209, 19, 19, 0.712);
+}
